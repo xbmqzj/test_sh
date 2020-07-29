@@ -8,8 +8,6 @@ class TestContact:
     @allure.severity("CRITICAL")
     @allure.step(title="登录的测试脚本")
     def test_login(self):
-        allure.attach("输入用户名", "输入用户名的描述")
-        print("输入用户名")
         allure.attach("输入密码", "输入密码的描述")
         print("输入密码")
         allure.attach("点击登录", "点击登录的描述")
