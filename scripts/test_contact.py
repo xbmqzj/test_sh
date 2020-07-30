@@ -13,7 +13,7 @@ class TestContact:
         allure.attach("点击登录", "点击登录的描述")
         print("点击登录")
         # print("123")
-        assert 1
+        assert 0
 
     @allure.severity("CRITICAL")
     @allure.step(title="用户名的测试脚本")
